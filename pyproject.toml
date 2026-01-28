@@ -1,0 +1,17 @@
+[project]
+name = "my-uv-tool"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "nkiyo", email = "nakahara.kiyoshi@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+my-uv-tool = "my_uv_tool:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
